@@ -1,0 +1,16 @@
+.responsive-nav{
+    width: 60vw;
+    height: 200vh;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: -40px;
+    margin-left: auto;
+}
+.responsive-nav ul{
+    margin-left: 20px;
+}
+.responsive-nav ul li{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}

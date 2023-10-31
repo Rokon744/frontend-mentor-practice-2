@@ -1,0 +1,84 @@
+.hero-left .hero-left-details h1 {
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.hero-left-details button {
+    padding: 10px 25px;
+    color: White;
+    background: red;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 3rem;
+    transition: .2s;
+}
+
+.hero-left-details button:hover{
+    background: black;
+}
+
+.hero-left-details p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #7a7a7a;
+}
+
+.hero-right .hero-right-box{
+    padding: 2rem;
+    background: black;
+}
+.hero-right .hero-right-box h2{
+    color: rgb(240, 147, 17);
+    font-size: 35px;
+    font-weight: 700;
+}
+.hero-right-box h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .2s;
+    cursor: pointer;
+}
+.hero-right-box h5:hover{
+    color: rgb(240, 147, 17);
+}
+.hero-right-box p{
+    color: #878585;
+    margin-top: 10px;
+}
+.hero-right-box hr{
+    margin: 28px 0;
+    border: none;
+    border: 1px solid #555;
+}
+
+
+
+@media (max-width:414px) {
+    .hero-left .hero-left-details h1{
+        font-size: 25px;
+        line-height: 1.2;
+    }
+}
+@media (max-width:800px) {
+    .hero-left .hero-left-details h1{
+        font-size: 35px;
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1190px;
+    }
+}
+@media (min-width: 1024px) and (max-width:1200px) {
+    .container {
+        width: 1024px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .hero-left .hero-left-details h1 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+}

@@ -1,0 +1,19 @@
+.reviving-box .box-details h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #9d9c9c;
+}
+.reviving-box .box-details h5{
+    font-size: 18px;
+    font-weight: 800;
+    transition: .2s;
+}
+.reviving-box .box-details h5:hover{
+    color: rgb(223, 95, 95);
+    cursor: pointer;
+}
+.reviving-box .box-details p{
+    color: #555;
+    font-weight: 500;
+    margin-top: 10px;
+}
